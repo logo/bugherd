@@ -1,22 +1,2 @@
-
-/**
- * BugHerd
- */
-
-.logo[data-logo="BugHerd"] {
-  width: .998680956em;
-  /* (12.12/12.13) * (1+.3+.3) - .3-.3 */
-}
-
-.logo[data-logo="BugHerd"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.3em;
-}
-
-.logo[data-logo="BugHerd"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="BugHerd"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
